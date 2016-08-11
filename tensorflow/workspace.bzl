@@ -14,7 +14,6 @@ def tf_workspace(path_prefix = "", tf_repo_name = ""):
     name = "eigen_archive",
     url = "https://bitbucket.org/eigen/eigen/get/" + eigen_version + ".tar.gz",
     sha256 = eigen_sha256,
-    strip_prefix = "eigen-eigen-" + eigen_version,
     build_file = path_prefix + "eigen.BUILD",
   )
 
